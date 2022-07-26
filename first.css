@@ -1,0 +1,204 @@
+:root {
+    --grey: rgb(65, 62, 62)
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+   
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(139, 153, 155);
+    font-weight: 400 ;
+    
+}
+
+header h1 {
+    font-family: monospace;
+    display: inline-block;
+    font-size: 48px;
+    color: var(--grey);
+     margin-top: 45px
+      
+
+}
+
+.about-me {
+    font-size: 25px;
+    float: right;
+    width: 60%;
+    padding-right: 5px;
+    margin-top: 60px;
+    text-indent: 20px;
+   
+}
+
+
+#me {
+    width: 20%;
+    float: right;
+    margin: 50px;
+    
+}
+
+.about-title {
+    margin-top: 100px;
+    border-right: 4px solid black;
+    height: 480px;
+    width: 26%;
+  
+}
+
+.about-work {
+     
+        margin-top: 100px;
+        border-right: 4px solid black;
+        height: 480px;
+        width: 26%;
+}
+
+
+
+.about-title h1 {
+    font-size: 40px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.about-work h1 {
+    font-size: 40px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+header {
+    background: #08a07a6e;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+header::after {
+    content:'';
+    display: table;
+    clear:both;
+}
+
+nav {
+    float: right;
+   
+}
+
+
+nav ul {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 45px;
+    position: relative;
+   
+}
+
+nav a {
+    color: var(--grey);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: rgb(188, 190, 188);
+
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color:  var(--grey);
+    position: relative;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+
+
+
+
+
+#first {
+  width: 55%;
+  float: right;
+  margin-right: 10%;
+  padding-top: 100px;
+  
+ }
+
+#second {
+    float: right;
+    width: 55%;
+    
+ }
+ 
+#first-pic {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.second-pic  {
+    display: inline-flex;
+   
+    flex-wrap: wrap;
+    flex-direction: row
+    
+   
+}
+
+.second-pic a {
+    width: 50%;
+    margin: 1px;
+    
+}
+
+
+
+
+
+
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.propic {
+    
+}
+
+
+   
