@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background: rgb(139, 153, 155);
+    background: var(--grey);
     font-weight: 400 ;
     
 }
@@ -52,11 +52,14 @@ header h1 {
 }
 
 .about-work {
-     
-    margin-top: 100px;
+    
+    margin-top: 80px;
     border-right: 4px solid black;
-    height: 480px;
+    height: 1350px;
     width: 26%;
+  
+
+  
 }
 
 
@@ -138,35 +141,31 @@ nav a:hover::before {
     width: 100%;
 }
 
-
 .boxes-container {
-    width: 80%;
-    margin: 10px auto 0 auto;
-    display: flex;
-    flex-direction: column;
+    
+    flex-wrap: wrap;
+}
+
+.boxes-1 {
+    margin-left: 1200px;
+    
+   
 }
 
 .boxes-2 {
-    max-width: 300px;
-    margin: 10px auto 0 auto;
-    display: flex;
-    flex-direction: column 
-}
-
-
-#first {
-    width: 70%;
-    float: right;
-    padding-right: 20px;
-    margin-top: 10%;
-}
-.boxes-2 {
-    width: 40%;
-}
-
-@media screen and (max-width: 480px){
+    margin-left: 1400px;
+    display: grid;
     
 }
+
+#second {
+    width: 200px;
+    
+    
+}
+
+
+
    
 
 
