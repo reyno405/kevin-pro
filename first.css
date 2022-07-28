@@ -42,8 +42,9 @@ header::after {
 /*sizing of the about me title on the side with its border-right*/
 .about-title {
     margin-top: 100px;
+    margin-bottom: 300px;
     border-right: 4px solid black;
-    height: 600px;
+    height: 400px;
     width: 20%;
 }
 
@@ -55,13 +56,20 @@ header::after {
     
 }
 
-
 .about-work {
-    margin-top: 10%;
-    border-right: 4px solid black;
-    height: 1400px;
-    width: 20%;
-    justify-content: center
+     
+        margin-top: 100px;
+        border-right: 4px solid black;
+        height: px;
+        width: 20%;
+    }
+
+
+.about-work h1 {
+    font-size: 40px;
+    margin-left: 30%;
+    margin-top: 30px;
+    
 
 }
 
@@ -136,34 +144,33 @@ nav a:hover::before {
 body {
     margin: 0;
     background: var(--grey);
-    font-weight: 400 ;   
-}
-.boxes-container {
-    width: 50%;
-    flex-wrap: wrap;
+    font-weight: 200 ;   
 }
 
-.boxes-1 {
-    margin-left: 900px;
-    width: 75%;
-    display: inline-block;
-    
-   
-}
-.boxes-2 {
-    float: left;
+
+.boxes-1 a {
+   float:right ;
+    width: 55%;
+    padding-bottom: 10px;
+  
 }
 
-.waves a {
-    margin-left: 700px;
+.boxes-1 h3 {
+    float: right;
+    margin5px
 }
-.waves h3 {
-    
-    margin-left: 700px;
+
+.waves{
+    float: right;
+width: 55%;
 }
+
+
 
 #second {
     width: 200px
+    
+    
     
 
 }
@@ -182,11 +189,7 @@ body {
 }
 
 
-@media screen and (max-width:1547px){
-.boxes-1 {
-    flex-wrap: wrap;
-    
-}
+
 
 
    
