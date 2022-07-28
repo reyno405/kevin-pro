@@ -30,13 +30,21 @@ header::after {
 }
 
 .about-me {
-    font-size: 25px;
+    font-size: 20px;
     float: right;
     width:50%;
     padding-right: 10%;
     margin-top: 60px;
     text-indent: 20px;
    
+}
+
+/*sizing of the about me title on the side with its border-right*/
+.about-title {
+    margin-top: 100px;
+    border-right: 4px solid black;
+    height: 600px;
+    width: 20%;
 }
 
  /*this is the size of the profile image*/
@@ -47,20 +55,13 @@ header::after {
     
 }
 
-/*sizing of the about me title on the side with its border-right*/
-.about-title {
-    margin-top: 100px;
-    border-right: 4px solid black;
-    height: 600px;
-    width: 40%;
-
-}
 
 .about-work {
     margin-top: 10%;
     border-right: 4px solid black;
     height: 1400px;
-    width: 40%;
+    width: 20%;
+    justify-content: center
 
 }
 
@@ -143,7 +144,7 @@ body {
 }
 
 .boxes-1 {
-    margin-left: 1000px;
+    margin-left: 900px;
     width: 75%;
     display: inline-block;
     
@@ -153,7 +154,13 @@ body {
     float: left;
 }
 
-
+.waves a {
+    margin-left: 700px;
+}
+.waves h3 {
+    
+    margin-left: 700px;
+}
 
 #second {
     width: 200px
