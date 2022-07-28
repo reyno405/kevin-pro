@@ -41,9 +41,9 @@ WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
-[![C-Users-t6500-Documents-week-1-chall-1-urban-octo-telegram-Develop-index-html.png](https://i.postimg.cc/3RC6f8pn/C-Users-t6500-Documents-week-1-chall-1-urban-octo-telegram-Develop-index-html.png)](https://postimg.cc/BLbMXGmK)
+[![C-Users-t6500-Documents-kevin-pro-first-html.png](https://i.postimg.cc/FFxY2c6S/C-Users-t6500-Documents-kevin-pro-first-html.png)](https://postimg.cc/MXvZBcqZ)
 
-https://reyno405.github.io/chall-1/
+
 
 
 
